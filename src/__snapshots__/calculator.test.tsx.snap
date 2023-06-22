@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`todos data: <li data-testid="todo">todo 2</li> 1`] = `
+Array [
+  <li
+    data-testid="todo"
+  >
+    todo 1
+  </li>,
+  <li
+    data-testid="todo"
+  >
+    todo 2
+  </li>,
+  <li
+    data-testid="todo"
+  >
+    todo 3
+  </li>,
+]
+`;

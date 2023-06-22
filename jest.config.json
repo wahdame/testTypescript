@@ -1,0 +1,13 @@
+{
+    "testEnvironment": "jsdom",
+    "transform": {
+        "^.+\\.tsx?$": "ts-jest"
+    },
+    "transformIgnorePatterns": "['/node_modules/(?!my-module)']",
+    "setupFilesAfterEnv": [
+        "@testing-library/jest-dom/extend-expect"
+    ],
+    "moduleNameMapper": {
+        "axios": "axios/dist/node/axios.cjs"
+    }
+}
