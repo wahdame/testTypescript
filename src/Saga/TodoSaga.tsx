@@ -1,6 +1,6 @@
 import { call, put } from "redux-saga/effects";
-import fetchAllTodo from "../Services/Api";
-import * as actions from "../store/Reducers/Todo";
+import { fetchAllTodo } from "../Services/Api";
+import * as actions from "../Reducers/Todo";
 
 export default function* fetchTodo(action: any): any {
   const todo = yield call(fetchAllTodo);
